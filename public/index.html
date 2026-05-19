@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <title>Vay Tiền Nhanh — Kết Nối Tài Chính 24/7</title>
+  <meta name="description" content="Kiểm tra điều kiện vay miễn phí. Kết nối 20+ tổ chức tài chính uy tín, duyệt trong 5 phút, nhận tiền ngay hôm nay. Không cần thế chấp.">
+
+  <!-- Open Graph Facebook -->
+  <meta property="og:type"        content="website">
+  <meta property="og:url"         content="https://hotrotaichinh.top/">
+  <meta property="og:title"       content="Vay Tiền Nhanh — Kết Nối Tài Chính 24/7">
+  <meta property="og:description" content="Kiểm tra điều kiện vay MIỄN PHÍ. Kết nối 20+ tổ chức tín dụng uy tín. Duyệt 5 phút, nhận tiền ngay hôm nay. Không cần thế chấp, không gặp mặt.">
+  <meta property="og:image"       content="https://hotrotaichinh.top/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale"      content="vi_VN">
+  <meta property="og:site_name"   content="Kết Nối Tài Chính 24/7">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:title"       content="Vay Tiền Nhanh — Kết Nối Tài Chính 24/7">
+  <meta name="twitter:description" content="Kết nối 20+ tổ chức tín dụng uy tín. Duyệt 5 phút, nhận tiền ngay.">
+  <meta name="twitter:image"       content="https://hotrotaichinh.top/og-image.jpg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@700;800;900&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --primary: #0a2540;
+      --accent:  #00c896;
+      --accent2: #f5a623;
+      --light:   #f7f9fc;
+      --text:    #1a2e44;
+      --muted:   #6b7c93;
+      --shadow:  0 8px 32px rgba(10,37,64,0.10);
+      --radius:  18px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Be Vietnam Pro', sans-serif; background: var(--light); color: var(--text); min-height: 100vh; }
+
+    /* HEADER */
+    .site-header {
+      background: var(--primary);
+      height: 64px; padding: 0 24px;
+      display: flex; align-items: center; justify-content: space-between;
+      position: sticky; top: 0; z-index: 100;
+      box-shadow: 0 2px 16px rgba(10,37,64,0.18);
+    }
+    .site-logo { color:#fff; font-size:1.3rem; font-weight:800; display:flex; align-items:center; gap:8px; text-decoration:none; }
+    .site-logo span { color: var(--accent); }
+    .header-badge { background:var(--accent); color:var(--primary); font-size:0.72rem; font-weight:700; padding:4px 10px; border-radius:20px; }
+
+    /* HERO */
+    .hero-section {
+      background: linear-gradient(135deg, var(--primary) 0%, #163a6b 60%, #0e4f6e 100%);
+      padding: 56px 24px 80px; text-align: center; position: relative; overflow: hidden;
+    }
+    .hero-section::before { content:''; position:absolute; top:-80px; right:-80px; width:320px; height:320px; background:radial-gradient(circle,rgba(0,200,150,.15) 0%,transparent 70%); border-radius:50%; }
+    .hero-tag { display:inline-block; background:rgba(0,200,150,.18); color:var(--accent); font-size:0.78rem; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; padding:6px 16px; border-radius:20px; margin-bottom:20px; border:1px solid rgba(0,200,150,.3); }
+    .hero-title { font-family:'Playfair Display',serif; color:#fff; font-size:clamp(2rem,6vw,3.2rem); line-height:1.15; margin-bottom:16px; position:relative; z-index:1; }
+    .hero-title em { color:var(--accent); font-style:normal; }
+    .hero-sub { color:rgba(255,255,255,.72); font-size:1.05rem; max-width:480px; margin:0 auto 36px; line-height:1.7; position:relative; z-index:1; }
+    .trust-row { display:flex; justify-content:center; gap:28px; flex-wrap:wrap; position:relative; z-index:1; }
+    .trust-item { color:rgba(255,255,255,.80); font-size:0.82rem; display:flex; align-items:center; gap:6px; font-weight:500; }
+
+    /* FORM */
+    .form-section { max-width:520px; margin:-44px auto 0; padding:0 16px 48px; position:relative; z-index:10; }
+    .form-card { background:#fff; border-radius:var(--radius); box-shadow:0 20px 60px rgba(10,37,64,.18); padding:40px 36px 36px; }
+    .form-card-title { font-size:1.22rem; font-weight:700; color:var(--primary); margin-bottom:6px; text-align:center; }
+    .form-card-sub { color:var(--muted); font-size:0.88rem; text-align:center; margin-bottom:28px; line-height:1.6; }
+    .form-group { margin-bottom:18px; }
+    .form-label { display:block; font-size:0.82rem; font-weight:600; color:var(--primary); margin-bottom:7px; }
+    .form-input { width:100%; padding:13px 16px; border:1.5px solid #d1dce8; border-radius:12px; font-family:'Be Vietnam Pro',sans-serif; font-size:0.97rem; color:var(--text); background:#f8fbff; transition:border-color .2s,box-shadow .2s; outline:none; }
+    .form-input:focus { border-color:var(--accent); box-shadow:0 0 0 3px rgba(0,200,150,.12); background:#fff; }
+    .form-input::placeholder { color:#b0bec5; }
+    .submit-btn { width:100%; padding:15px; background:linear-gradient(135deg,var(--accent) 0%,#00a87a 100%); color:#fff; border:none; border-radius:12px; font-family:'Be Vietnam Pro',sans-serif; font-size:1.05rem; font-weight:700; cursor:pointer; margin-top:8px; transition:transform .15s,box-shadow .15s; box-shadow:0 6px 24px rgba(0,200,150,.30); }
+    .submit-btn:hover { transform:translateY(-2px); box-shadow:0 10px 30px rgba(0,200,150,.38); }
+    .form-note { text-align:center; font-size:0.75rem; color:var(--muted); margin-top:14px; line-height:1.6; }
+    .form-note a { color:var(--accent); text-decoration:none; }
+
+    /* STATS */
+    .stats-band { background:var(--primary); padding:28px 24px; display:flex; justify-content:center; gap:48px; flex-wrap:wrap; }
+    .stat-item { text-align:center; }
+    .stat-number { font-size:1.6rem; font-weight:800; color:var(--accent); display:block; line-height:1; }
+    .stat-label { color:rgba(255,255,255,.60); font-size:0.78rem; margin-top:4px; font-weight:500; }
+
+    /* FEATURES */
+    .features-section { padding:56px 24px; max-width:1000px; margin:0 auto; }
+    .section-title { text-align:center; font-family:'Playfair Display',serif; font-size:clamp(1.6rem,4vw,2.2rem); color:var(--primary); margin-bottom:8px; }
+    .section-sub { text-align:center; color:var(--muted); margin-bottom:40px; font-size:0.97rem; }
+    .features-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:20px; }
+    .feature-card { background:#fff; border-radius:14px; padding:28px 24px; box-shadow:var(--shadow); transition:transform .2s; }
+    .feature-card:hover { transform:translateY(-4px); }
+    .feature-icon { width:48px; height:48px; background:rgba(0,200,150,.10); border-radius:12px; display:flex; align-items:center; justify-content:center; font-size:1.4rem; margin-bottom:16px; }
+    .feature-title { font-size:1rem; font-weight:700; color:var(--primary); margin-bottom:8px; }
+    .feature-desc { color:var(--muted); font-size:0.88rem; line-height:1.65; }
+
+    /* FOOTER */
+    .site-footer { background:var(--primary); color:rgba(255,255,255,.55); text-align:center; padding:28px 24px; font-size:0.82rem; line-height:1.8; }
+    .site-footer a { color:var(--accent); text-decoration:none; }
+
+    /* SUCCESS MSG */
+    .form-success { display:none; background:linear-gradient(135deg,var(--accent),#00a87a); border-radius:14px; padding:24px; text-align:center; color:#fff; margin-top:16px; }
+    .form-success.show { display:block; }
+
+    @media(max-width:520px){
+      .form-card{padding:28px 18px 24px;}
+      .stats-band{gap:24px;}
+    }
+  </style>
+</head>
+<body>
+
+<header class="site-header">
+  <a href="/" class="site-logo">💰 <span>Kết Nối Tài Chính 24/7</span></a>
+  <span class="header-badge">✅ Chính thống</span>
+</header>
+
+<section class="hero-section">
+  <div class="hero-tag">🏦 Kết nối 20+ tổ chức tín dụng</div>
+  <h1 class="hero-title">Vay tiền nhanh chóng,<br><em>lãi suất tốt nhất</em></h1>
+  <p class="hero-sub">Chỉ cần nhập thông tin cơ bản, chúng tôi sẽ kết nối bạn với đơn vị cho vay phù hợp nhất trong vài phút.</p>
+  <div class="trust-row">
+    <span class="trust-item">⚡ Duyệt trong 5 phút</span>
+    <span class="trust-item">🔒 Bảo mật thông tin</span>
+    <span class="trust-item">💯 Miễn phí hoàn toàn</span>
+  </div>
+</section>
+
+<section class="form-section">
+  <div class="form-card">
+    <h2 class="form-card-title">Kiểm tra điều kiện vay</h2>
+    <p class="form-card-sub">Điền thông tin để nhận danh sách đơn vị cho vay phù hợp</p>
+
+    <form id="loanForm">
+      <div class="form-group">
+        <label class="form-label">Họ và tên *</label>
+        <input class="form-input" type="text" id="fl_name" placeholder="Nguyễn Văn A" required>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Số điện thoại *</label>
+        <input class="form-input" type="tel" id="fl_phone" placeholder="09xxxxxxxx" required pattern="[0-9]{9,11}">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Email *</label>
+        <input class="form-input" type="email" id="fl_email" placeholder="example@gmail.com" required>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Ngày tháng năm sinh *</label>
+        <input class="form-input" type="date" id="fl_dob" required>
+      </div>
+      <button type="submit" class="submit-btn" id="submitBtn">Kiểm tra điều kiện ngay →</button>
+    </form>
+
+    <p class="form-note">🔒 Thông tin được mã hóa và bảo mật tuyệt đối.<br>
+    Bằng cách tiếp tục, bạn đồng ý với <a href="#">Điều khoản</a> và <a href="#">Chính sách bảo mật</a>.</p>
+  </div>
+</section>
+
+<div class="stats-band">
+  <div class="stat-item"><span class="stat-number">500K+</span><span class="stat-label">Khách hàng tin dùng</span></div>
+  <div class="stat-item"><span class="stat-number">20+</span><span class="stat-label">Đối tác tín dụng</span></div>
+  <div class="stat-item"><span class="stat-number">98%</span><span class="stat-label">Tỉ lệ duyệt hồ sơ</span></div>
+  <div class="stat-item"><span class="stat-number">5 phút</span><span class="stat-label">Thời gian xét duyệt</span></div>
+</div>
+
+<section class="features-section">
+  <h2 class="section-title">Tại sao chọn chúng tôi?</h2>
+  <p class="section-sub">Kết nối bạn với đúng đơn vị cho vay, nhanh – dễ – uy tín</p>
+  <div class="features-grid">
+    <div class="feature-card"><div class="feature-icon">⚡</div><div class="feature-title">Duyệt siêu tốc</div><p class="feature-desc">Kết quả kiểm tra điều kiện chỉ trong vài phút, không chờ đợi lâu.</p></div>
+    <div class="feature-card"><div class="feature-icon">💰</div><div class="feature-title">Lãi suất cạnh tranh</div><p class="feature-desc">So sánh nhiều đơn vị, chọn mức lãi suất phù hợp nhất với bạn.</p></div>
+    <div class="feature-card"><div class="feature-icon">🔒</div><div class="feature-title">An toàn bảo mật</div><p class="feature-desc">Thông tin cá nhân được mã hóa SSL, tuyệt đối an toàn.</p></div>
+    <div class="feature-card"><div class="feature-icon">📋</div><div class="feature-title">Thủ tục đơn giản</div><p class="feature-desc">Không cần thế chấp phức tạp, chỉ cần CMND/CCCD là đủ.</p></div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <p>© 2026 Kết Nối Tài Chính 24/7. Dịch vụ kết nối tài chính uy tín.</p>
+  <p><a href="#">Điều khoản sử dụng</a> · <a href="#">Chính sách bảo mật</a> · <a href="#">Liên hệ</a></p>
+  <p style="margin-top:10px;opacity:.5;font-size:.75rem;">Chúng tôi là đơn vị kết nối, không phải tổ chức tín dụng.</p>
+</footer>
+
+<script>
+document.getElementById('loanForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+  const name  = document.getElementById('fl_name').value;
+  const phone = document.getElementById('fl_phone').value;
+  const email = document.getElementById('fl_email').value;
+  const dob   = document.getElementById('fl_dob').value;
+
+  // Lưu vào localStorage để trang kết quả đọc
+  localStorage.setItem('fl_name',  name);
+  localStorage.setItem('fl_phone', phone);
+  localStorage.setItem('fl_email', email);
+  localStorage.setItem('fl_dob',   dob);
+
+  // Gửi email qua Formspree (thay YOUR_FORM_ID)
+  fetch('https://formspree.io/f/YOUR_FORM_ID', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({ name, phone, email, dob })
+  }).catch(() => {});
+
+  // Chuyển sang trang kết quả
+  const btn = document.getElementById('submitBtn');
+  btn.textContent = 'Đang kiểm tra...';
+  btn.disabled = true;
+  setTimeout(() => { window.location.href = '/ket-qua.html'; }, 800);
+});
+</script>
+</body>
+</html>
