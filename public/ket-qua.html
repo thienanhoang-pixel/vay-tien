@@ -73,7 +73,7 @@
 <section class="partners-section">
   <div class="partners-wrap">
     <div class="partners-header">
-      <span class="partners-count-badge">🔍 Tìm thấy 19 đơn vị phù hợp</span>
+      <span class="partners-count-badge">🔍 Tìm thấy 20 đơn vị phù hợp</span>
       <p class="partners-hint">Nhấn <strong>"Vay ngay"</strong> để chuyển sang trang đăng ký chính thức.</p>
     </div>
 
@@ -96,6 +96,7 @@ const name = localStorage.getItem('fl_name');
 if (name) document.getElementById('welcomeTitle').textContent = 'Chúc mừng ' + name + '!';
 
 const partners = [
+  { url:'https://go.clickbuy.asia/click?a=84973&o=1413', logo:'🟢', badge:'new', name:'VAY XANH — Đăng ký bằng SĐT, nhận tiền sau khi duyệt', limit:'Vay tiêu dùng nhanh — Quy trình online minh bạch, linh hoạt', desc:'Chỉ cần nhập SĐT → xác nhận OTP → điền thông tin khoản vay → được phê duyệt và nhận tiền. Quản lý khoản vay dễ dàng qua hệ thống trực tuyến hiện đại.', tags:['Chỉ cần SĐT','Xác thực OTP','Quản lý online'] },
   { url:'https://go.dinos.click/click?a=84973&o=769',  logo:'🏦', badge:'hot', name:'VAY QUA NGÂN HÀNG — Không cần gặp mặt', limit:'Kết nối trực tiếp các ngân hàng & tổ chức tài chính lớn nhất VN', desc:'Hệ thống tự động sơ duyệt hồ sơ, kết nối thẳng tới ngân hàng phù hợp — chỉ cần CCCD + SĐT (Viettel/Mobifone/Vinaphone).', tags:['Chỉ cần CCCD','Duyệt tự động','Không gặp mặt'] },
   { url:'https://go.dinos.click/click?a=84973&o=927',  logo:'💼', badge:'hot', name:'VAY TIÊU DÙNG TÍN CHẤP — Nhận tiền trong vài giờ', limit:'Lên đến 30 triệu — Không cần thế chấp tài sản', desc:'Đăng ký online hoàn toàn, không cần đến văn phòng — tiền về tài khoản trong vài giờ. Phù hợp người đi làm có thu nhập ổn định từ 3 triệu/tháng.', tags:['Đi làm có thu nhập','Từ 22–60 tuổi','Nhận tiền vài giờ'] },
   { url:'https://go.dinos.click/click?a=84973&o=1060', logo:'🛵', badge:'new', name:'VÀY THẾ CHẤP XE / ĐỒ ĐIỆN TỬ — Giữ cà vẹt, vẫn đi xe bình thường', limit:'Từ 5 đến 30 triệu — Công ty tài chính Nhật Bản, uy tín 10+ năm', desc:'⚠️ Chỉ hỗ trợ TP.HCM. Thế chấp cà vẹt xe hoặc hóa đơn điện tử — vẫn giữ xe đi lại, chỉ nộp giấy tờ. Nhân viên gọi tư vấn trong ngày.', tags:['Thế chấp cà vẹt xe','Hoặc hóa đơn điện tử','⚠️ Chỉ TP.HCM'] },
